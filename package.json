@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michaeltaranto/less-vars-to-js.git"
+    "url": "git+https://github.com/StevenSh/less-or-sass-vars-to-js.git"
   },
   "author": {
     "name": "steven sheng"
