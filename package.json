@@ -1,5 +1,5 @@
 {
-  "name": "less-or-sass-vars-to-js",
+  "name": "less-or-sass-vars",
   "version": "0.0.3",
   "description": "Read LESS variables from the contents of a file and returning them as a javascript object.",
   "main": "dist/index.js",
