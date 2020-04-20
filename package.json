@@ -8,14 +8,11 @@
     "lint": "eslint --config .eslintrc.js src test",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "enforce-coverage": "babel-istanbul check-coverage --branches 100 --statements 100 --lines 100 --functions 100",
-
     "test": "npm run test:unit && npm run enforce-coverage",
     "test:dev": "mocha --compilers js:babel-register --watch --reporter spec",
     "test:unit": "babel-node ./node_modules/.bin/babel-istanbul cover _mocha",
     "prebuild": "npm run clean",
     "build": "babel -d dist/ src/",
-    "commit": "git-cz",
-    "commitmsg": "commitlint --edit --extends @commitlint/config-conventional",
     "prepublishOnly": "npm run build",
     "semantic-release": "semantic-release"
   },
